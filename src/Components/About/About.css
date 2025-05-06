@@ -39,7 +39,7 @@
 .about-right {
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 40px;
 }
 .about-para {
   display: flex;
@@ -51,9 +51,18 @@
 }
 .about-skills {
   display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.about-skills div {
+  display: flex;
   flex-direction: column;
-  gap: 20px;
- 
+  align-items: center;
+  gap: 10px;
+}
+.skill-name{
+  color: #c2bfbf;
+  font-size: 16px;
 }
 .about-skill {
   display: flex;
@@ -120,6 +129,10 @@
 }
 .about-achievements hr {
   display: none;
+}
+.skill-icon{
+  height: 60px;
+  width: 60px;
 }
 @media screen and (max-width: 768px) {
   .about {

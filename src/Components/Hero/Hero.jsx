@@ -1,6 +1,5 @@
-import AnchorLink from "react-anchor-link-smooth-scroll";
 import "./Hero.css";
-import resume from "../../assets/SrujanKandakurthiResume.pdf";
+import resume from "../../assets/srujankandakurthi_full_stack_resume.pdf";
 const Hero = () => {
   return (
     <div className="hero" id="home-section">
@@ -11,13 +10,17 @@ const Hero = () => {
       />
       <h1>
         <span className="hero-name">I’m Srujan Kandakurthi</span> <br />
-        <span className="hero-role">Frontened Developer</span>
+        <span className="hero-role">Full Stack Developer</span>
       </h1>
-      <p>
+      {/* <p>
         Fellow Knows Python, JavaScript, Front End Development, Backend
         Development,Web Design using Figma along with Version Control System who
-        <span className="oppurtunity-heading"> Looking for Opportunities </span>
-      </p>
+        <span className="oppurtunity-heading">
+          {" "}
+          <br />
+          Looking for Opportunities{" "}
+        </span>
+      </p> */}
 
       <div className="hero-action">
         <a
@@ -26,7 +29,7 @@ const Hero = () => {
         >
           <div className="hero-connect">Explore 🌐</div>
         </a>
-        <a href={resume} download="SrujanKandakurthiResume.pdf">
+        <a href={resume} download="Srujan-Kandakurthi">
           <div className="hero-download-resume">My Resume 📝</div>
         </a>
       </div>

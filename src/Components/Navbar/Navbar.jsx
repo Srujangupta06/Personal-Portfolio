@@ -16,11 +16,13 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <div className="logo-container">
-        <h2 className="logo-first-letter">
-          S<span className="logo-second-letter">K</span>
-        </h2>
-      </div>
+      <AnchorLink href="#home-section" className="anchor-link">
+        <div className="logo-container">
+          <h2 className="logo-first-letter">
+            S<span className="logo-second-letter">K</span>
+          </h2>
+        </div>
+      </AnchorLink>
       <img
         src={menu_open}
         alt=""

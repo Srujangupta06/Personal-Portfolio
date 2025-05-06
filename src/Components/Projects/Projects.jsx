@@ -4,7 +4,7 @@ import my_project_data from "../../assets/mywork_data";
 import arrow_icon from "../../assets/arrow_icon.svg";
 import { useState } from "react";
 const Projects = () => {
-  const [viewProject, setViewProject] = useState(6);
+  const [viewProject, setViewProject] = useState(3);
   const btnName =
     viewProject > my_project_data.length ? "Show less" : "Show more";
   const showMoreProjects = () => {

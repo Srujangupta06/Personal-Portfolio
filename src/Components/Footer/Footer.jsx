@@ -20,7 +20,10 @@ const Footer = () => {
         </div> */}
         <div className="social-media-links-container">
           <div>
-            <a href="" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/srujan-kandakurthi"
+              target="_blank"
+            >
               <img
                 src="https://res.cloudinary.com/djv3sgbxn/image/upload/v1729249685/LinkedIn_uquqf0.png"
                 className="social-media-img"
@@ -29,7 +32,7 @@ const Footer = () => {
             </a>
           </div>
           <div>
-            <a href="" target="_blank">
+            <a href="https://x.com/srujangupta06" target="_blank">
               <img
                 src="https://res.cloudinary.com/djv3sgbxn/image/upload/v1729249685/Twitter_X_onxtkv.png"
                 className="social-media-img"
